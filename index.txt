@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<title>Amália Ribeiro | Nutricionista Esportiva</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<script>
+tailwind.config = {
+theme: {
+extend: {
+fontFamily:{
+sans:['Plus Jakarta Sans','sans-serif']
+},
+colors:{
+brand:{
+dark:'#060606',
+soft:'#0f0f0f',
+primary:'#c084fc'
+}
+}
+}
+}
+}
+</script>
+
+<style>
+
+body{
+background:#060606;
+overflow-x:hidden;
+}
+
+.glow{
+position:absolute;
+width:500px;
+height:500px;
+border-radius:999px;
+background:rgba(192,132,252,.18);
+filter:blur(120px);
+pointer-events:none;
+}
+
+.grid-overlay{
+background-image:
+linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+background-size:40px 40px;
+}
+
+.reveal{
+opacity:0;
+transform:translateY(60px);
+transition:1s ease;
+}
+
+.reveal.active{
+opacity:1;
+transform:translateY(0);
+}
+
+</style>
+
+</head>
+
+<body class="text-white font-sans">
+
+<!-- HERO -->
+
+<section class="relative min-h-screen flex items-center overflow-hidden grid-overlay">
+
+<div class="glow top-[-150px] right-[-100px]"></div>
+
+<div class="max-w-7xl mx-auto px-6 py-24 grid lg:grid-cols-2 gap-20 items-center relative z-10">
+
+<!-- LEFT -->
+
+<div class="space-y-8 reveal">
+
+<div class="inline-flex items-center gap-3 border border-white/10 bg-white/5 backdrop-blur-xl px-5 py-3 rounded-full text-sm tracking-[0.25em] uppercase text-purple-300 font-semibold">
+Performance • Hipertrofia • Emagrecimento
+</div>
+
+<h1 class="text-5xl md:text-7xl font-black leading-[0.92] tracking-[-0.06em] max-w-4xl">
+Transforme seu corpo com estratégia, performance e constância.
+</h1>
+
+<p class="text-zinc-400 text-xl leading-relaxed max-w-2xl">
+Nutrição esportiva aplicada de forma inteligente para mulheres e homens que querem emagrecer, ganhar massa muscular e melhorar performance sem protocolos impossíveis.
+</p>
+
+<div class="flex flex-wrap gap-5 pt-2">
+
+<a
+href="https://api.whatsapp.com/send/?phone=5531985104484&text&type=phone_number&app_absent=0"
+class="bg-purple-400 hover:bg-purple-500 transition-all duration-300 px-10 py-5 rounded-2xl font-bold text-black text-lg shadow-[0_20px_60px_rgba(192,132,252,0.35)]"
+>
+QUERO COMEÇAR AGORA
+</a>
+
+</div>
+
+<div class="grid grid-cols-2 md:grid-cols-3 gap-10 pt-10">
+
+<div>
+<h3 class="text-4xl font-black">7x</h3>
+<p class="text-zinc-500 mt-2 text-sm uppercase tracking-wider">
+maratonista
+</p>
+</div>
+
+<div>
+<h3 class="text-4xl font-black">+21mil</h3>
+<p class="text-zinc-500 mt-2 text-sm uppercase tracking-wider">
+seguidores
+</p>
+</div>
+
+<div>
+<h3 class="text-4xl font-black">Online</h3>
+<p class="text-zinc-500 mt-2 text-sm uppercase tracking-wider">
+e presencial
+</p>
+</div>
+
+</div>
+
+</div>
+
+<!-- RIGHT -->
+
+<div class="relative flex justify-center reveal">
+
+<div class="absolute w-[420px] h-[420px] rounded-full bg-purple-400/20 blur-[120px]"></div>
+
+<img
+src="./images/amalia-ribeiro.jpg"
+alt="Amália Ribeiro"
+class="relative z-10 rounded-[36px] border border-white/10 shadow-2xl object-cover max-h-[780px]"
+>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- DOBRA DOR -->
+
+<section class="py-28 bg-[#0b0b0b] border-t border-white/5">
+
+<div class="max-w-6xl mx-auto px-6">
+
+<div class="max-w-3xl mb-20 reveal">
+
+<span class="text-purple-300 uppercase tracking-[0.25em] text-sm font-semibold">
+O problema
+</span>
+
+<h2 class="text-4xl md:text-6xl font-black mt-6 leading-tight tracking-[-0.05em]">
+Seu corpo não responde apenas com esforço.
+</h2>
+
+<p class="text-zinc-400 text-xl mt-8 leading-relaxed">
+A maioria das pessoas vive presa entre dietas restritivas, falta de constância e treinos sem estratégia. O problema não é falta de dedicação — é falta de direcionamento inteligente.
+</p>
+
+</div>
+
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+<div class="bg-white/[0.03] border border-white/10 rounded-[28px] p-8 reveal">
+<h3 class="text-2xl font-bold mb-5">
+Dietas extremas
+</h3>
+<p class="text-zinc-500 leading-relaxed">
+Protocolos difíceis de manter que acabam sabotando seus resultados.
+</p>
+</div>
+
+<div class="bg-white/[0.03] border border-white/10 rounded-[28px] p-8 reveal">
+<h3 class="text-2xl font-bold mb-5">
+Falta de constância
+</h3>
+<p class="text-zinc-500 leading-relaxed">
+Resultados temporários por não conseguir sustentar a rotina.
+</p>
+</div>
+
+<div class="bg-white/[0.03] border border-white/10 rounded-[28px] p-8 reveal">
+<h3 class="text-2xl font-bold mb-5">
+Treinos sem estratégia
+</h3>
+<p class="text-zinc-500 leading-relaxed">
+Muito esforço sem um plano alimentar e físico realmente alinhado.
+</p>
+</div>
+
+<div class="bg-white/[0.03] border border-white/10 rounded-[28px] p-8 reveal">
+<h3 class="text-2xl font-bold mb-5">
+Baixa autoestima
+</h3>
+<p class="text-zinc-500 leading-relaxed">
+Seu físico começa a impactar energia, confiança e qualidade de vida.
+</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- MÉTODO -->
+
+<section class="py-32 bg-black relative overflow-hidden">
+
+<div class="glow bottom-[-250px] left-[-100px]"></div>
+
+<div class="max-w-6xl mx-auto px-6 relative z-10">
+
+<div class="text-center max-w-4xl mx-auto mb-24 reveal">
+
+<span class="text-purple-300 uppercase tracking-[0.25em] text-sm font-semibold">
+Método Amália Ribeiro
+</span>
+
+<h2 class="text-5xl md:text-6xl font-black mt-6 tracking-[-0.05em]">
+Nutrição com estratégia e performance.
+</h2>
+
+<p class="text-zinc-400 text-xl mt-8 leading-relaxed">
+Uma abordagem construída para gerar transformação física real sem extremismos, respeitando sua rotina, objetivo e estilo de vida.
+</p>
+
+</div>
+
+<div class="grid md:grid-cols-3 gap-8">
+
+<div class="bg-zinc-900 border border-white/10 rounded-[32px] p-10 reveal">
+
+<div class="w-16 h-16 rounded-2xl bg-purple-400/10 flex items-center justify-center mb-8">
+<i data-lucide="activity" class="w-8 h-8 text-purple-300"></i>
+</div>
+
+<h3 class="text-3xl font-bold mb-6">
+Alta Performance
+</h3>
+
+<p class="text-zinc-400 leading-relaxed">
+Estratégias voltadas para melhorar energia, disposição e rendimento físico.
+</p>
+
+</div>
+
+<div class="bg-zinc-900 border border-white/10 rounded-[32px] p-10 reveal">
+
+<div class="w-16 h-16 rounded-2xl bg-purple-400/10 flex items-center justify-center mb-8">
+<i data-lucide="dumbbell" class="w-8 h-8 text-purple-300"></i>
+</div>
+
+<h3 class="text-3xl font-bold mb-6">
+Hipertrofia Inteligente
+</h3>
+
+<p class="text-zinc-400 leading-relaxed">
+Construção muscular com planejamento alimentar estratégico e sustentável.
+</p>
+
+</div>
+
+<div class="bg-zinc-900 border border-white/10 rounded-[32px] p-10 reveal">
+
+<div class="w-16 h-16 rounded-2xl bg-purple-400/10 flex items-center justify-center mb-8">
+<i data-lucide="heart-pulse" class="w-8 h-8 text-purple-300"></i>
+</div>
+
+<h3 class="text-3xl font-bold mb-6">
+Emagrecimento Sustentável
+</h3>
+
+<p class="text-zinc-400 leading-relaxed">
+Resultados consistentes sem viver presa a restrições impossíveis.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SOBRE -->
+
+<section class="py-32 bg-[#0b0b0b]">
+
+<div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center">
+
+<div class="reveal">
+
+<img
+src="./images/amalia-about.jpg"
+alt="Amália Ribeiro"
+class="rounded-[36px] border border-white/10 shadow-2xl"
+>
+
+</div>
+
+<div class="reveal">
+
+<span class="text-purple-300 uppercase tracking-[0.25em] text-sm font-semibold">
+Amália Ribeiro
+</span>
+
+<h2 class="text-5xl font-black mt-6 mb-8 tracking-[-0.05em]">
+Nutrição aplicada à estética, saúde e performance.
+</h2>
+
+<div class="space-y-6 text-zinc-400 text-lg leading-relaxed">
+
+<p>
+Amália Ribeiro atua com uma abordagem voltada para emagrecimento, hipertrofia e performance esportiva de forma estratégica e sustentável.
+</p>
+
+<p>
+Sua comunicação transmite equilíbrio entre resultado físico, rotina saudável e qualidade de vida.
+</p>
+
+<p>
+A proposta é criar um plano alimentar inteligente e individualizado para pessoas que desejam transformar o corpo sem viver reféns de protocolos extremos.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- PROVA -->
+
+<section class="py-32 bg-gradient-to-b from-purple-400 to-fuchsia-500">
+
+<div class="max-w-5xl mx-auto px-6 text-center reveal">
+
+<h2 class="text-5xl md:text-6xl font-black tracking-[-0.05em] leading-tight">
+Mais performance, mais autoestima e resultados construídos com estratégia.
+</h2>
+
+<p class="text-white/80 text-xl mt-10 leading-relaxed max-w-3xl mx-auto">
+Uma metodologia pensada para gerar transformação física de forma inteligente e sustentável.
+</p>
+
+</div>
+
+</section>
+
+<!-- CTA -->
+
+<section class="py-32 bg-black relative overflow-hidden">
+
+<div class="glow bottom-[-200px] right-[-100px]"></div>
+
+<div class="max-w-4xl mx-auto px-6 text-center relative z-10 reveal">
+
+<span class="text-purple-300 uppercase tracking-[0.25em] text-sm font-semibold">
+Consultoria personalizada
+</span>
+
+<h2 class="text-5xl md:text-7xl font-black mt-8 leading-[0.95] tracking-[-0.06em]">
+Sua transformação começa agora.
+</h2>
+
+<p class="text-zinc-400 text-xl leading-relaxed mt-10 max-w-2xl mx-auto">
+Clique no botão abaixo e fale diretamente com Amália Ribeiro para iniciar sua evolução física.
+</p>
+
+<a
+href="https://api.whatsapp.com/send/?phone=5531985104484&text&type=phone_number&app_absent=0"
+class="inline-flex mt-14 bg-white text-black px-12 py-6 rounded-2xl font-black text-lg hover:bg-zinc-200 transition-all"
+>
+QUERO MINHA CONSULTORIA
+</a>
+
+</div>
+
+</section>
+
+<script>
+
+lucide.createIcons();
+
+const reveals = document.querySelectorAll('.reveal');
+
+function revealOnScroll(){
+
+reveals.forEach((element)=>{
+
+const windowHeight = window.innerHeight;
+const elementTop = element.getBoundingClientRect().top;
+
+if(elementTop < windowHeight - 80){
+element.classList.add('active');
+}
+
+});
+
+}
+
+window.addEventListener('scroll', revealOnScroll);
+
+revealOnScroll();
+
+</script>
+
+</body>
+</html>
